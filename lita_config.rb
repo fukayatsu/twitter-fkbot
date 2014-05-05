@@ -10,4 +10,8 @@ Lita.configure do |config|
   config.adapter.api_secret          = ENV['API_SECRET']
   config.adapter.access_token        = ENV['ACCESS_TOKEN']
   config.adapter.access_token_secret = ENV['ACCESS_TOKEN_SECRET']
+
+  config.handlers.schedules.room              = 1
+  config.handlers.schedules.should_sleep_at   = '0 0 * * * Asia/Tokyo'
+  config.handlers.schedules.should_wake_up_at = '0 8 * * * Asia/Tokyo'
 end
