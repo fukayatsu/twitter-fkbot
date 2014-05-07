@@ -1,3 +1,8 @@
+if ENV['RACK_ENV'] !='production'
+  require 'dotenv'
+  Dotenv.load
+end
+
 Lita.configure do |config|
   config.robot.name       = ENV["BOT_NAME"] || 'lita'
   config.robot.adapter    = ENV["ADAPTER"] ? ENV["ADAPTER"].to_sym : :shell
