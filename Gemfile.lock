@@ -1,9 +1,11 @@
 GEM
-  remote: https://rubygems.org/
+  remote: https://s3.amazonaws.com/production.s3.rubygems.org/
   specs:
     addressable (2.3.6)
     buftok (0.2.0)
-    dotenv (0.10.0)
+    dotenv (0.11.1)
+      dotenv-deployment (~> 0.0.2)
+    dotenv-deployment (0.0.2)
     equalizer (0.0.9)
     faraday (0.9.0)
       multipart-post (>= 1.2, < 3)
@@ -32,12 +34,12 @@ GEM
       thor (>= 0.18.1)
     lita-google-images (1.0.4)
       lita (>= 2.0)
-    lita-pebbles (0.1.1)
+    lita-pebbles (0.1.2)
       flippy (~> 0.1.2)
       lita (>= 3.1)
       pebbles-suddenly_death_string (~> 0.0.4)
       rufus-scheduler (~> 3.0.7)
-    lita-twitter (0.0.4)
+    lita-twitter (0.0.6)
       lita (>= 2.5)
       twitter (>= 5.0.0)
     memoizable (0.4.2)
@@ -80,7 +82,7 @@ PLATFORMS
 
 DEPENDENCIES
   dotenv
-  lita
+  lita (>= 3.1.0)
   lita-google-images
-  lita-pebbles
-  lita-twitter
+  lita-pebbles (= 0.1.2)
+  lita-twitter (= 0.0.6)
