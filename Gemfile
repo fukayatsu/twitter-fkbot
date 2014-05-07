@@ -4,3 +4,5 @@ gem "lita"
 gem 'lita-twitter'
 gem 'lita-pebbles'
 gem "lita-google-images"
+
+gem 'dotenv'
