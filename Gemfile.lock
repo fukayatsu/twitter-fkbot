@@ -34,7 +34,7 @@ GEM
       thor (>= 0.18.1)
     lita-google-images (1.0.4)
       lita (>= 2.0)
-    lita-pebbles (0.1.3)
+    lita-pebbles (0.1.4)
       flippy (~> 0.1.2)
       lita (>= 3.1)
       pebbles-suddenly_death_string (~> 0.0.4)
@@ -84,5 +84,5 @@ DEPENDENCIES
   dotenv
   lita (>= 3.1.0)
   lita-google-images
-  lita-pebbles (= 0.1.3)
+  lita-pebbles (= 0.1.4)
   lita-twitter (= 0.0.6)
