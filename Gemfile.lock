@@ -1,5 +1,5 @@
 GEM
-  remote: https://s3.amazonaws.com/production.s3.rubygems.org/
+  remote: https://rubygems.org/
   specs:
     addressable (2.3.6)
     buftok (0.2.0)
@@ -34,7 +34,7 @@ GEM
       thor (>= 0.18.1)
     lita-google-images (1.0.4)
       lita (>= 2.0)
-    lita-pebbles (0.1.5)
+    lita-pebbles (0.1.6)
       flippy (~> 0.1.2)
       lita (>= 3.1)
       pebbles-suddenly_death_string (~> 0.0.4)
@@ -72,7 +72,7 @@ GEM
       memoizable (~> 0.4.0)
       naught (~> 1.0)
       simple_oauth (~> 0.2.0)
-    tzinfo (1.1.0)
+    tzinfo (1.2.1)
       thread_safe (~> 0.1)
     url_mount (0.2.1)
       rack
@@ -84,5 +84,5 @@ DEPENDENCIES
   dotenv
   lita (>= 3.1.0)
   lita-google-images
-  lita-pebbles (= 0.1.5)
+  lita-pebbles (= 0.1.6)
   lita-twitter (= 0.0.6)
