@@ -5,5 +5,6 @@ gem "lita",         '>= 3.1.0'
 gem 'lita-twitter', '0.0.6'
 gem 'lita-pebbles', '0.1.6'
 gem "lita-google-images"
+gem "lita-sushiyuki"
 
 gem 'dotenv'
