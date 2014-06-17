@@ -34,7 +34,7 @@ GEM
       thor (>= 0.18.1)
     lita-google-images (1.0.4)
       lita (>= 2.0)
-    lita-pebbles (0.1.6)
+    lita-pebbles (0.1.7)
       flippy (~> 0.1.2)
       lita (>= 3.1)
       pebbles-suddenly_death_string (~> 0.0.4)
@@ -57,7 +57,7 @@ GEM
     redis-namespace (1.4.1)
       redis (~> 3.0.4)
     ruby-termios (0.9.6)
-    rufus-scheduler (3.0.7)
+    rufus-scheduler (3.0.8)
       tzinfo
     simple_oauth (0.2.0)
     thor (0.19.1)
@@ -86,6 +86,6 @@ DEPENDENCIES
   dotenv
   lita (>= 3.1.0)
   lita-google-images
-  lita-pebbles (= 0.1.6)
+  lita-pebbles (= 0.1.7)
   lita-sushiyuki
   lita-twitter (= 0.0.6)
