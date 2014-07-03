@@ -39,7 +39,7 @@ GEM
       lita (>= 3.1)
       pebbles-suddenly_death_string (~> 0.0.4)
       rufus-scheduler (~> 3.0.7)
-    lita-sushiyuki (0.0.4)
+    lita-sushiyuki (0.0.5)
       lita (>= 3.1)
     lita-twitter (0.0.6)
       lita (>= 2.5)
@@ -53,9 +53,9 @@ GEM
     puma (2.8.2)
       rack (>= 1.1, < 2.0)
     rack (1.5.2)
-    redis (3.0.7)
-    redis-namespace (1.4.1)
-      redis (~> 3.0.4)
+    redis (3.1.0)
+    redis-namespace (1.5.0)
+      redis (~> 3.0, >= 3.0.4)
     ruby-termios (0.9.6)
     rufus-scheduler (3.0.8)
       tzinfo
@@ -87,5 +87,5 @@ DEPENDENCIES
   lita (~> 3.2.0)
   lita-google-images
   lita-pebbles (= 0.1.7)
-  lita-sushiyuki (= 0.0.4)
+  lita-sushiyuki (= 0.0.5)
   lita-twitter (= 0.0.6)
