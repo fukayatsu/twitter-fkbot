@@ -39,7 +39,7 @@ GEM
       lita (>= 3.1)
       pebbles-suddenly_death_string (~> 0.0.4)
       rufus-scheduler (~> 3.0.7)
-    lita-sushiyuki (0.0.5)
+    lita-sushiyuki (0.0.6)
       lita (>= 3.1)
     lita-twitter (0.0.6)
       lita (>= 2.5)
@@ -87,5 +87,5 @@ DEPENDENCIES
   lita (~> 3.2.0)
   lita-google-images
   lita-pebbles (= 0.1.8)
-  lita-sushiyuki (= 0.0.5)
+  lita-sushiyuki (= 0.0.6)
   lita-twitter (= 0.0.6)
