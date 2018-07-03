@@ -21,6 +21,5 @@ Lita.configure do |config|
   config.handlers.schedules.should_sleep_at   = '0 0 * * * Asia/Tokyo'
   config.handlers.schedules.should_wake_up_at = '0 8 * * * Asia/Tokyo'
 
-  config.handlers.talk.docomo_api_key      = ENV['DOCOMO_API_KEY']
-  config.handlers.talk.docomo_character_id = [nil, 20]
+  config.handlers.talk.docomo_api_key = ENV['DOCOMO_API_KEY']
 end
