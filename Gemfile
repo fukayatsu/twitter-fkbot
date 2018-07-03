@@ -1,3 +1,4 @@
+ruby '2.5.1'
 source 'https://rubygems.org'
 # source "https://s3.amazonaws.com/production.s3.rubygems.org"
 

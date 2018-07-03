@@ -116,5 +116,8 @@ DEPENDENCIES
   lita-talk
   lita-twitter
 
+RUBY VERSION
+   ruby 2.5.1p57
+
 BUNDLED WITH
    1.16.1
